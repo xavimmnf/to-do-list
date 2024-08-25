@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List | X</title>
+    <link rel="shortcut icon" href="./assets/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="main">
+      <section class="app">
+        <div class="app__content">
+          <h1 class="app__title">ToDo List 📃</h1>
+          <div class="app__textbox">
+            <input
+              type="text"
+              class="app__input"
+              placeholder="Add your task"
+              name="textbox"
+            />
+            <button class="app__btn">Add</button>
+          </div>
+          <p class="app__taskcount">
+            You have
+            <span class="app__taskcount-number">0</span>
+            task(s) to complete
+          </p>
+          <div class="app__tasklist"></div>
+        </div>
+        <div class="error-message">
+          <p>The text box cannot be empty</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        © Powered by
+        <a href="https://www.instagram.com/xavimmnf/" target="_blank">Xavi</a>
+        <i class="fa-solid fa-heart"></i> | 2024
+      </p>
+    </footer>
+  </body>
+</html>
